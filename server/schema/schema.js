@@ -99,7 +99,7 @@ const RootQuery = new GraphQLObjectType({
             }
         },
         authors:{
-            type: new GraphQLList(AutherType),
+            type: new GraphQLList(AuthorType),
             resolve(parent, args){
                 return authors;
             }
