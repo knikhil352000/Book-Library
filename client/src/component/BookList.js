@@ -15,7 +15,7 @@ const BookList = () => {
     
     if (loading) return <p>Loading Books...</p>;
     if (error) return <p>Error :(</p>;
-    console.log(data);
+    // console.log(data);
     return data.books.map(book => {
         return (
             <div key={book.id}>
