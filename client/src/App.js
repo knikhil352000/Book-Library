@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import AddBook from "./component/AddBook";
 import BookList from "./component/BookList";
 

@@ -8,7 +8,7 @@ const BookDetails = (props) => {
     })
     if (loading) return <p>Loading Books...</p>;
     if (error) return <p>Error :(</p>;
-    console.log(data);
+    // console.log(data);
     const displayBooksDetails = () => {
         const { book } = data;
         if(book){
